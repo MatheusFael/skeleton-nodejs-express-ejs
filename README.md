@@ -1,4 +1,4 @@
-# Skeleton NodeJS + ExpressJS
+﻿# Skeleton NodeJS + ExpressJS
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 Um repositório base completo, profissional e pronto para produção para projetos NodeJS + ExpressJS
 
-[Recursos](#recursos) • [Instalacao](#instalacao) • [Uso](#uso) • [Estrutura](#estrutura-do-projeto) • [Contribuindo](#contribuindo)
+[Recursos](#recursos) • [Instalação](#instalação) • [Uso](#uso) • [Estrutura](#estrutura-do-projeto) • [Contribuindo](#contribuindo)
 
 </div>
 
@@ -35,15 +35,15 @@ Inclui configuração profissional com **Prisma** para gerenciamento de banco de
 - **Node.js + Express** - Framework web rápido e minimalista
 - **EJS Template Engine** - Templates dinâmicos e eficientes
 - **Prisma ORM** - Gerenciamento moderno e type-safe de banco de dados
-- **Estrutura Escalável** - Organizacao clara de rotas, views e modelos
-- **Pronto para Producao** - Configuracao otimizada e segura
-- **Facil de Estender** - Arquitetura limpa e modular
+- **Estrutura Escalável** - Organização clara de rotas, views e modelos
+- **Pronto para Produção** - Configuração otimizada e segura
+- **Fácil de Estender** - Arquitetura limpa e modular
 
 ---
 
 ## Tecnologias
 
-| Tecnologia | Versao | Descricao |
+| Tecnologia | Versão | Descrição |
 |-----------|--------|-----------|
 | **Node.js** | 18+ | Runtime JavaScript |
 | **Express.js** | 4.x | Framework web minimalista |
@@ -80,12 +80,11 @@ skeleton-nodejs-express-ejs/
 
 ---
 
-## Instalacao
+## Instalação
 
-### Pre-requisitos
+### Pré-requisitos
 - **Node.js** 18 ou superior
 - **npm** ou **yarn**
-- **Git**
 
 ### Passo a Passo
 
@@ -130,7 +129,7 @@ http://localhost:3000
 
 ## Uso
 
-### Comandos Disponiveis
+### Comandos Disponíveis
 
 ```bash
 # Inicia o servidor em modo desenvolvimento
@@ -151,7 +150,7 @@ npx prisma db seed
 
 ### Estrutura de Rotas
 
-As rotas estao organizadas em `/routes` para melhor modularizacao:
+As rotas estão organizadas em `/routes` para melhor modularização:
 
 ```javascript
 // routes/index.js
@@ -168,7 +167,7 @@ router.get('/:id', (req, res) => {
 
 ### Usando Templates EJS
 
-Os templates utilizam EJS para renderizacao dinamica:
+Os templates utilizam EJS para renderização dinâmica:
 
 ```html
 <!-- views/layout.ejs -->
@@ -282,7 +281,7 @@ model Post {
 
 ---
 
-## Variaveis de Ambiente
+## Variáveis de Ambiente
 
 Crie um arquivo `.env` na raiz do projeto:
 
@@ -337,7 +336,7 @@ src/
 
 ## Contribuindo
 
-Contribuicoes sao bem-vindas! Para contribuir:
+Contribuições são bem-vindas! Para contribuir:
 
 1. Faca um Fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
@@ -356,7 +355,7 @@ Contribuicoes sao bem-vindas! Para contribuir:
 
 ## Licenca
 
-Este projeto esta licenciado sob a Licenca MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ---
 
@@ -371,10 +370,10 @@ Este projeto esta licenciado sob a Licenca MIT - veja o arquivo [LICENSE](LICENS
 
 ## Suporte e Duvidas
 
-Tem duvidas ou encontrou um bug?
+Tem dúvidas ou encontrou um bug?
 
 - Abra uma [Issue](https://github.com/luizpicolo/skeleton-nodejs-express-ejs/issues)
-- Inicie uma [Discussao](https://github.com/luizpicolo/skeleton-nodejs-express-ejs/discussions)
+- Inicie uma [Discussão](https://github.com/luizpicolo/skeleton-nodejs-express-ejs/discussions)
 - Envie um email para suporte
 
 ---
